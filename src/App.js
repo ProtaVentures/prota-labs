@@ -8,11 +8,12 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Prota Codes</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          This is where you will be able to find publically available <code>code repos</code> as well as <code>code styleguides</code> for Prota projects.
         </p>
+        <code>Coming soon...</code>
       </div>
     );
   }
