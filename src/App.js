@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -7,13 +7,13 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Prota Codes</h2>
+          <img src={logo} className="App-logo" alt="Prota Labs" />
         </div>
-        <p className="App-intro">
-          This is where you will be able to find publically available <code>code repos</code> as well as <code>code styleguides</code> for Prota projects.
-        </p>
-        <code>Coming soon...</code>
+        <div className="App-intro">
+          <p>
+            Coming soon…
+          </p>
+        </div>
       </div>
     );
   }
