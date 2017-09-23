@@ -1,5 +1,5 @@
 {
-  "name": "prota-codes",
+  "name": "prota-labs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,5 +18,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://prota.codes"
+  "homepage": "http://protalabs.com"
 }
